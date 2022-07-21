@@ -1,0 +1,53 @@
+.navbar {
+  margin: 1vw 5vw;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: larger;
+}
+
+.navbar-container .left-side {
+  display: flex;
+  flex-direction: row;
+  font-size: xx-large;
+}
+
+.navbar-container h1 {
+  font-weight: 550;
+  font-size: 7.2vh;
+  color: rgb(17, 13, 13);
+}
+
+.navbar-container .right-side {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.navbar-container .right-side .list {
+  display: flex;
+  list-style: none;
+  color: crimson;
+}
+
+li {
+  margin: 1.4vw;
+  font-size: 2.5vh;
+  font-weight: 500;
+  color: orangered;
+}
+
+button {
+  padding: 0.5vh 5vw;
+  border-radius: 30px;
+  color: white;
+  font-size: 2.7vh;
+  font-weight: 500;
+  border: none;
+  background-color: rgb(253, 151, 89);
+}
